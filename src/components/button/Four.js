@@ -15,7 +15,7 @@ export default function Four({ img2, title, desc, img, reverse }) {
         <div className="sm:w-[40%] sm:mb-[10px]">
           <img className="mx-auto sm:mb-auto " src={img} />
         </div>
-        <div className="sm:w-[40%] w-[90%]">
+        <div className="sm:w-[50%] w-[100%]">
 
           <h2 className="text-[#191919] mb-5 heading-gradient-hero sm:text-left text-center leading-[140%] text-[48px] font-semibold">
             {title}
