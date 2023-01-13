@@ -3,7 +3,7 @@ import React from "react";
 export default function email() {
     return (
         <div className=" sm:w-[80%]  flex container text-center justify-center mt-[100px] ">
-            <div className="bg-[url('http://localhost:3000/images/second.png')]  mb-[158px] flex flex-col items-center pb-[100px] pt-[80px] sm:pr-[100px] sm:pl-[100px]">
+            <div className="bg-[url('http://localhost:3000/images/second.png')] bg-cover mb-[158px] flex flex-col items-center pb-[100px] pt-[80px] sm:pr-[100px] sm:pl-[100px]">
                 <div className="my-20">
                     <div className="font-bold text-3xl mt-[60px]">
                         Your journey starts here
@@ -14,7 +14,7 @@ export default function email() {
                     </div>
                     <div
                         className="mt-[50px]   bg-white-500"
-                   >
+                    >
 
 
 
