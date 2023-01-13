@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi"
-import { ImCross } from "react-icons/Im"
+import { ImCross } from "react-icons/im"
 export default function Navbar() {
     const [click, setClick] = useState()
 
@@ -19,7 +19,7 @@ export default function Navbar() {
                 <a href="#" className="     hover:text-[#600CED]  hover:underline text-[16px] text-[#393939] mr-[50px]   font-semibold flex items-center mx-auto transition duration-300 ">Adspy </a>
 
 
-                
+
             </div>
             <button className='sm:hidden' onClick={() => setClick(!click)}> <GiHamburgerMenu /></button>
 
